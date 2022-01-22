@@ -51,3 +51,15 @@
 // Soluce 2 :
 // let naissance = prompt ("quel est votre date de naissance") ;
 //alert ((((Number(pointure) 2)+5 )50) - (naissance) + 1766)
+
+// exercice 8
+let age = prompt("Quel âge as-tu ?")
+
+
+if (age < 18){
+   alert("Vous n'êtes pas un adulte");
+   window.close()
+}
+else{
+   alert("Vous êtes un adulte");
+}
